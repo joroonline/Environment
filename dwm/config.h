@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx       = 1;   /* border pixel of windows */
+static const unsigned int borderpx       = 3;   /* border pixel of windows */
 static const unsigned int snap           = 32;  /* snap pixel */
 static const unsigned int gappih         = 30;  /* horiz inner gap between windows */
 static const unsigned int gappiv         = 25;  /* vert inner gap between windows */
@@ -32,50 +32,50 @@ static int floatindicatortype            = INDICATOR_NONE;
 static const char *fonts[]               = { "TerminessTTF Nerd Font:size=16" };
 static const char dmenufont[]            = "TerminessTTF Nerd Font:size=10";
 
-static char c000000[]                    = "#000000"; // placeholder value
+static char c000000[]                    = "#052525"; // placeholder value // #000000 #052525
 
-static char normfgcolor[]                = "#ffffff";
-static char normbgcolor[]                = "#1e1e2e";
-static char normbordercolor[]            = "#11111b";
-static char normfloatcolor[]             = "#ffffff";
+static char normfgcolor[]                = "#3db0a8"; // #ffffff #8ebfb0
+static char normbgcolor[]                = "#0f1e24"; // #1e1e2e #043e3e
+static char normbordercolor[]            = "#0f1e24"; // #11111b #033333
+static char normfloatcolor[]             = "#3db0a8"; // #ffffff #8ebfb0
 
-static char selfgcolor[]                 = "#ffffff";
-static char selbgcolor[]                 = "#000000";
-static char selbordercolor[]             = "#f5e0dc"; // active border color
-static char selfloatcolor[]              = "#005577";
+static char selfgcolor[]                 = "#3db0a8"; // #ffffff #8ebfb0
+static char selbgcolor[]                 = "#0f1e24"; // #000000
+static char selbordercolor[]             = "#3db0a8"; // active border color // #f5e0dc
+static char selfloatcolor[]              = "#3db0a8"; // #005577
 
 // title widget
-static char titlenormfgcolor[]           = "#f4b8e4";
-static char titlenormbgcolor[]           = "#1e1e2e";
-static char titlenormbordercolor[]       = "#222222";
-static char titlenormfloatcolor[]        = "#db8fd9";
+static char titlenormfgcolor[]           = "#3db0a8"; // #f4b8e4
+static char titlenormbgcolor[]           = "#0f1e24"; // #1e1e2e
+static char titlenormbordercolor[]       = "#0f1e24"; // #222222
+static char titlenormfloatcolor[]        = "#3db0a8"; // #db8fd9
 
-static char titleselfgcolor[]            = "#f4b8e4";
-static char titleselbgcolor[]            = "#1e1e2e";
-static char titleselbordercolor[]        = "#005577";
-static char titleselfloatcolor[]         = "#005577";
+static char titleselfgcolor[]            = "#3db0a8"; // #f4b8e4
+static char titleselbgcolor[]            = "#0f1e24"; // #1e1e2e
+static char titleselbordercolor[]        = "#3db0a8"; // #005577
+static char titleselfloatcolor[]         = "#3db0a8"; // #005577
 
 // tags widget
-static char tagsnormfgcolor[]            = "#cba6f7";
-static char tagsnormbgcolor[]            = "#11111b";
-static char tagsnormbordercolor[]        = "#444444";
-static char tagsnormfloatcolor[]         = "#db8fd9";
+static char tagsnormfgcolor[]            = "#3db0a8"; // #cba6f7
+static char tagsnormbgcolor[]            = "#0f1e24"; // #11111b
+static char tagsnormbordercolor[]        = "#178b67"; // #444444
+static char tagsnormfloatcolor[]         = "#3db0a8"; // #db8fd9
 
-static char tagsselfgcolor[]             = "#cba6f7";
-static char tagsselbgcolor[]             = "#11111b";
-static char tagsselbordercolor[]         = "#005577";
-static char tagsselfloatcolor[]          = "#005577";
+static char tagsselfgcolor[]             = "#3db0a8"; // #cba6f7
+static char tagsselbgcolor[]             = "#0f1e24"; // #11111b
+static char tagsselbordercolor[]         = "#3db0a8"; // #005577
+static char tagsselfloatcolor[]          = "#3db0a8"; // #005577
 
 //
-static char hidnormfgcolor[]             = "#ffffff";
-static char hidselfgcolor[]              = "#000000";
-static char hidnormbgcolor[]             = "#222222";
-static char hidselbgcolor[]              = "#222222";
+static char hidnormfgcolor[]             = "#8ebfb0"; // #ffffff
+static char hidselfgcolor[]              = "#0f1e24"; // #000000
+static char hidnormbgcolor[]             = "#035038"; // #222222
+static char hidselbgcolor[]              = "#035038"; // #222222
 
-static char urgfgcolor[]                 = "#ffffff";
-static char urgbgcolor[]                 = "#000000";
-static char urgbordercolor[]             = "#ff0000";
-static char urgfloatcolor[]              = "#db8fd9";
+static char urgfgcolor[]                 = "#8ebfb0"; // #ffffff
+static char urgbgcolor[]                 = "#0f1e24"; // #000000
+static char urgbordercolor[]             = "#ff0000"; // #ff0000
+static char urgfloatcolor[]              = "#0c8548"; // db8fd9
 
 
 

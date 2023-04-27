@@ -18,12 +18,12 @@ static
 const
 char *colors[][2] = {
 	/*               fg         bg       */
-	[SchemeNorm] = { "#cba6f7", "#11111b" },
-	[SchemeSel]  = { "#cba6f7", "#11111b" },
-	[SchemeOut]  = { "#000000", "#11111b" },
-	[SchemeBorder] = { "#000000", "#11111b" },
-	[SchemeMid]  = { "#cba6f7", "#11111b" },
-	[SchemeHp]   = { "#000000", "#11111b" },
+	[SchemeNorm] = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
+	[SchemeSel]  = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
+	[SchemeOut]  = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
+	[SchemeBorder] = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
+	[SchemeMid]  = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
+	[SchemeHp]   = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 10;
