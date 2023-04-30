@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
-static int topbar = 0;                      /* -b  option; if 0, dmenu appears at bottom */
+static int topbar = '-b';                      /* -b  option; if 0, dmenu appears at bottom */
 static int center = 0;                      /* -c  option; if 0, dmenu won't be centered on the screen */
 static int min_width = 500;                 /* minimum width when centered */
 static const int vertpad = 42;              /* vertical padding of bar */
@@ -18,12 +18,12 @@ static
 const
 char *colors[][2] = {
 	/*               fg         bg       */
-	[SchemeNorm] = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
-	[SchemeSel]  = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
-	[SchemeOut]  = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
-	[SchemeBorder] = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
-	[SchemeMid]  = { "#3db0a8", "#0f1e24" }, // #cba6f7 #11111b
-	[SchemeHp]   = { "#0f1e24", "#0f1e24" }, // #000000 #11111b
+	[SchemeNorm] = { "#0f1e24", "#c8e690" }, // #3db0a8 #0f1e24
+	[SchemeSel]  = { "#0f1e24", "#c8e690" }, // #3db0a8 #0f1e24
+	[SchemeOut]  = { "#0f1e24", "#c8e690" }, // #0f1e24 #0f1e24
+	[SchemeBorder] = { "#c8e690", "#c8e690" }, // #0f1e24 #0f1e24
+	[SchemeMid]  = { "#0f1e24", "#c8e690" }, // #3db0a8 #0f1e24
+	[SchemeHp]   = { "#c8e690", "#c8e690" }, // #0f1e24 #0f1e24
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 10;
